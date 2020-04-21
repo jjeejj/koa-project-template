@@ -1,5 +1,5 @@
 {
-  "name": "user_server",
+  "name": "koa-project-template",
   "version": "1.0.0",
   "description": "一个 Koa 项目模版",
   "main": "index.js",
