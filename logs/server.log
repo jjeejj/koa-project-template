@@ -1,0 +1,113 @@
+[36m[2020-04-21T14:52:18.834] [DEBUG] default - [39mloggerProxy { error: 
+   Logger {
+     category: 'error',
+     context: {},
+     parseCallStack: [Function: defaultParseCallStack] },
+  default: 
+   Logger {
+     category: 'default',
+     context: {},
+     parseCallStack: [Function: defaultParseCallStack] },
+  all: 
+   Logger {
+     category: 'default',
+     context: {},
+     parseCallStack: [Function: defaultParseCallStack] },
+  trace: 
+   Logger {
+     category: 'default',
+     context: {},
+     parseCallStack: [Function: defaultParseCallStack] },
+  debug: 
+   Logger {
+     category: 'default',
+     context: {},
+     parseCallStack: [Function: defaultParseCallStack] },
+  info: 
+   Logger {
+     category: 'default',
+     context: {},
+     parseCallStack: [Function: defaultParseCallStack] },
+  warn: 
+   Logger {
+     category: 'default',
+     context: {},
+     parseCallStack: [Function: defaultParseCallStack] },
+  fatal: 
+   Logger {
+     category: 'default',
+     context: {},
+     parseCallStack: [Function: defaultParseCallStack] },
+  mark: 
+   Logger {
+     category: 'default',
+     context: {},
+     parseCallStack: [Function: defaultParseCallStack] },
+  off: 
+   Logger {
+     category: 'default',
+     context: {},
+     parseCallStack: [Function: defaultParseCallStack] } }
+[36m[2020-04-21T14:52:21.829] [DEBUG] default - [39mloggerProxy { error: 
+   Logger {
+     category: 'error',
+     context: {},
+     parseCallStack: [Function: defaultParseCallStack] },
+  default: 
+   Logger {
+     category: 'default',
+     context: {},
+     parseCallStack: [Function: defaultParseCallStack] },
+  all: 
+   Logger {
+     category: 'default',
+     context: {},
+     parseCallStack: [Function: defaultParseCallStack] },
+  trace: 
+   Logger {
+     category: 'default',
+     context: {},
+     parseCallStack: [Function: defaultParseCallStack] },
+  debug: 
+   Logger {
+     category: 'default',
+     context: {},
+     parseCallStack: [Function: defaultParseCallStack] },
+  info: 
+   Logger {
+     category: 'default',
+     context: {},
+     parseCallStack: [Function: defaultParseCallStack] },
+  warn: 
+   Logger {
+     category: 'default',
+     context: {},
+     parseCallStack: [Function: defaultParseCallStack] },
+  fatal: 
+   Logger {
+     category: 'default',
+     context: {},
+     parseCallStack: [Function: defaultParseCallStack] },
+  mark: 
+   Logger {
+     category: 'default',
+     context: {},
+     parseCallStack: [Function: defaultParseCallStack] },
+  off: 
+   Logger {
+     category: 'default',
+     context: {},
+     parseCallStack: [Function: defaultParseCallStack] } }
+[36m[2020-04-21T14:52:21.833] [DEBUG] default - [39m------
+[36m[2020-04-21T14:52:33.088] [DEBUG] default - [39m------
+[36m[2020-04-21T16:22:36.300] [DEBUG] default - [39m{ all: [Function],
+  trace: [Function],
+  debug: [Function],
+  info: [Function],
+  warn: [Function],
+  error: [Function],
+  fatal: [Function],
+  mark: [Function],
+  off: [Function] }
+[32m[2020-04-21T16:22:36.302] [INFO] default - [39mserver is runnning 0.0.0.0:6080
+[32m[2020-04-21T16:22:53.486] [INFO] default - [39mserver is runnning 0.0.0.0:6080

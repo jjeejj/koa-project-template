@@ -1,0 +1,24 @@
+{
+  "name": "user_server",
+  "version": "1.0.0",
+  "description": "一个 Koa 项目模版",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["koa", "Template"],
+  "author": "一步",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^8.0.8",
+    "koa-static": "^5.0.0",
+    "log4js": "^6.2.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.6"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^5.5.1"
+  }
+}
