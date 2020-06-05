@@ -3,19 +3,20 @@
         "node": true,
         "jest": true,
         "mongo": true,
-        "es6": true
+        "es6": true,
+        "commonjs": true
     },
     "extends": [
-        "airbnb-base"
+        "eslint:recommended"
     ],
     "parserOptions": {
-        "sourceType": "module",
+        "sourceType": "script",
         "ecmaVersion": 2020,
         "ecmaFeatures": {
             "impliedStrict": true
         }
     },
     "rules": {
-        "no-console": 0
+        "no-console": 1
     }
 }

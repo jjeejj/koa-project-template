@@ -1,4 +1,4 @@
-// @ts-nocheck
+/* eslint-disable no-console */
 /**
  * 有关日志的配置
 */
@@ -80,7 +80,7 @@ function createLogProxyConsole(level, logger) {
     return (...params) => {
         logger[level](...params);
     };
-};
+}
 console.log = createLogProxyConsole('debug', loggerProxy);
 console.info = createLogProxyConsole('info', loggerProxy);
 console.warn = createLogProxyConsole('warn', loggerProxy);

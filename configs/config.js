@@ -28,9 +28,9 @@ function getConfig () {
         if (!config) {
             let _envConf = envConf[env];
             config = Object.assign(commonConf, _envConf);
-        };
+        }
         return config;
     };
-};
+}
 
 module.exports = getConfig()();

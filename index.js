@@ -5,6 +5,7 @@ const Koa = require('koa');
 const bodyParser = require('koa-bodyparser');
 const koaStatic = require('koa-static');
 const requestTime = require('./middlewares/requestTime.js');
+global.logger = logger;
 
 const app = new Koa();
 
