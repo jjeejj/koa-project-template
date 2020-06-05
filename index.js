@@ -1,9 +1,9 @@
 // 日志对象
-global.logger = require('./utils/log4jsLogger');
+const logger = require('./utils/log4jsLogger');
 const config = require('./configs/config.js');
 const Koa = require('koa');
 const bodyParser = require('koa-bodyparser');
-const static = require('koa-static');
+const koaStatic = require('koa-static');
 const requestTime = require('./middlewares/requestTime.js');
 
 const app = new Koa();
@@ -11,7 +11,7 @@ const app = new Koa();
 app.use(requestTime);
 
 // 处理静态资源, 根目录为 statics
-app.use(static(__dirname));
+app.use(koaStatic(__dirname));
 
 // 处理请求的 body 参数
 app.use(bodyParser);

@@ -1,3 +1,4 @@
+// @ts-nocheck
 /**
  * 有关日志的配置
 */
@@ -59,20 +60,22 @@ const defaultLogger = log4js.getLogger(); // 获取默认日志
 const errorLogger = log4js.getLogger('error'); //获取错误级别日志
 
 // 日志代理, 同时写如 default 和 error 的文件
-const loggerProxy = {
-};
+const loggerProxy = {};
 // 遍历日志级别,输入到日志文件
+
 log4js.levels.levels.forEach((level) => {
-    level = level.levelStr.toLowerCase();
-    loggerProxy[level] = (...params) => {
-        defaultLogger[level](...params);
-        errorLogger[level](...params);
+    let levelStr = level.levelStr.toLowerCase();
+    loggerProxy[levelStr] = (...params) => {
+        defaultLogger[levelStr](...params);
+        errorLogger[levelStr](...params);
     };
 });
 
-/** 
+/**
  * 覆盖对应的 console 方法
-*/
+ * @param {string} level
+ * @param {loggerProxy} logger
+ */
 function createLogProxyConsole(level, logger) {
     return (...params) => {
         logger[level](...params);
